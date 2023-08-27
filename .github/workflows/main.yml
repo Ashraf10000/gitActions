@@ -12,3 +12,5 @@ jobs:
         run: pwd
       - name: "printing name"
         run: echo 'Ashraf maged'
+      - name: "listing folder content"
+        run: ls
