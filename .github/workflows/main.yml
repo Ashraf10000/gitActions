@@ -21,3 +21,6 @@ jobs:
 
       - name: "listing folder content"
         run: ls -a
+
+      - name: "displaying password"
+        run: cat /home/runner/.docker/config.json.
