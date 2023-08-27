@@ -2,11 +2,13 @@ on:
   push:
     branches:
       - master
+
 jobs:
   build:
-  runs-on: ubuntu-latest
-  steps:
-    - name: "testing actions"
-      run: pwd
-    - name: "printing name"
-      run: echo 'Ashraf maged'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "testing actions"
+        run: pwd
+      - name: "printing name"
+        run: echo 'Ashraf maged'
