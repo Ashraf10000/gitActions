@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: "Loging to Docker"
-        run: docker login --username ${{secrets.DockerUserName}} --password${{secrets.DockerToken}}
+        run: docker login --username ${{secrets.DOCKER_USERNAME}} --password${{secrets.DOCKER_TOKEN}}
       - name: "testing actions"
         run: pwd
 
