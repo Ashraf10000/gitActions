@@ -15,3 +15,6 @@ jobs:
 
       - name: "Buliding Docker image"
         run: docker build -t ${{ secrets.DOCKER_USERNAME }}/javatask-v4 .
+
+      - name: "Buliding Docker image"
+        run: docker build -t ashraf22/javatask-v5 .
