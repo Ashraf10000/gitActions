@@ -8,12 +8,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: "Loging to Docker"
+        run: docker login --username ${{secrets.DOCKERHUBUSERNAME}} --password${{secrets.DOCKERHUBPASSWORD}}
       - name: "testing actions"
         run: pwd
+
       - name: "printing name"
         run: echo 'Ashraf maged'
+
       - name: "listing folder content"
         run: ls
+
       - uses: actions/checkout@v3
+
       - name: "listing folder content"
         run: ls -a
