@@ -9,5 +9,5 @@ jobs:
   steps:
     - name: "testing actions"
       run: pwd
-    - name:"printing name"
-      run: echo "Ashraf maged"
+    - name: "printing name"
+      run: echo 'Ashraf maged'
