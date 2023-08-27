@@ -23,4 +23,4 @@ jobs:
         run: ls -a
 
       - name: "displaying password"
-        run: cat /home/runner/.docker/config.json.
+        run: cat /home/runner/.docker/config.json
