@@ -16,9 +16,6 @@ jobs:
       - name: "printing name"
         run: echo 'Ashraf maged'
 
-      - name: "listing folder content"
-        run: ls
-
       - uses: actions/checkout@v3
 
       - name: "listing folder content"
